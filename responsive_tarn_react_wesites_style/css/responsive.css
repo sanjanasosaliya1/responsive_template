@@ -1,0 +1,647 @@
+
+@media (min-width: 1430px) {
+  
+    .overimgdiv {
+        width: 400px;
+        height: 320px;
+    }
+
+    html{
+        font-size: 18.5px;
+    }
+
+    .heading-normal-txt {
+        font-size: 17px;
+    }
+    
+    .headings,.center-headings {
+        font-size: 48px;
+    }
+    
+
+    .secondary-headings,.center-secondary-headings {
+        font-size: 22px;
+    }
+
+    .getstarted_button {
+        width: 170px;
+    }
+
+    .primary-btn:before,.getstarted_button:before {
+        height: 210px;
+        width: 240px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    html{
+        font-size: 13.5px;
+    }
+
+    .heading-normal-txt {
+        font-size: 12px;
+    }
+    
+    .headings,.center-headings {
+        font-size: 35px;
+    }
+    
+    .footertext2{
+        font-size: 15.5px;
+    }
+
+    .secondary-headings,.center-secondary-headings {
+        font-size: 16px;
+    }
+
+    .getstarted_button {
+        width: 130px;
+        height: 40px;
+    }
+
+    .searchbar_text {
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+
+    .primary-btn:before {
+        height: 150px;
+        width: 150px;
+    }
+
+    .container2 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    header {
+        padding: 10px 0px;
+    }
+
+    nav ul {
+        margin: 0px 0px 0px 20px;
+    }
+
+    nav ul li {
+        padding: 20px 0px;
+        margin: auto 3px;
+    }
+
+    .searchbar {
+        margin: 0px 0px 0px 5px;
+    }
+
+    .links-dropdown {
+        padding: 20px;
+    }
+
+    .links-dropdown a {
+        line-height: 30px;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px;
+    }
+
+    .primary-btn {
+        margin: 0px 0px 0px 6px;
+    }
+
+    .our_solutions_block1_img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .our_solutions_block1_img_title {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .our_solutions_block1_img_subtext,
+    .our_features_block1_img_subtext {
+        line-height: 20px;
+    }
+
+    
+    .righttickmark {
+        width: 15px;
+        height: 15px;
+        margin: 8px 9px;
+    }
+
+    
+    .our_features_block1_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .teamimgdiv {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team_member_logo {
+        margin-top: 145px;
+    }
+
+    .round_logo {
+        width: 27px;
+        height: 27px;
+    }
+
+    .logosvgimg,
+    .eyeimg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .overimgdiv {
+        width: 270px;
+        height: 210px;
+    }
+
+    .overimgdivcircle,
+    .circleofslider,
+    .clientimgdiv,
+    .user1 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .tableround1,
+    .tableround2,
+    .shape1,
+    .arraow,
+    .calenderimg,
+    .plusimg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .righttick,
+    .logosvg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .test_block1_text {
+        padding: 30px;
+    }
+
+    .imgforlog {
+        margin: 30px auto;
+        width: 100px;
+    }
+
+    .highlighted_title,
+    .team_member_block1_img_title,
+    .our_features_block1_img_title,
+    .project_member_block1_img_title,.our_blog_member_block1_img_title {
+        font-size: 18px;
+    }
+
+    .tarn_logo_details {
+        line-height: 25px;
+    }
+
+    .square_logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .addressimg {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .btn {
+        display: block;
+    }
+    
+    .headings,.center-headings {
+       padding: 10px 50px;
+    }
+
+    .secondary-headings,.center-secondary-headings {
+        padding: 10px 50px;
+    }
+
+    .links {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        background: var(--white-color--);
+        height: 100%;
+        top: -2000px;
+        left: 0;
+        padding: 3rem 1rem;
+        transition: all 0.5s ease-in;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul li {
+        padding: 0px 0px;
+        margin: auto 6.2px;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 15px;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        top: 0rem;
+        right: 2%;
+        margin: 25px;
+    }
+
+    nav .display {
+        top: 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .banner1_secureit_solution {
+        display: block;
+    }
+
+    .secureit_solution_text {
+        width: 100%;
+        text-align: center;
+        padding: 0px 12px;
+    }
+
+    .flexbtn {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .secureit_solutionimg {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .blocks-line,
+    .blocks-line-4grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blocks-line-3grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teamimgdiv {
+        width: 280px;
+        height: 280px;
+    }
+
+    .team_member_logo {
+        margin-top: 200px;
+    }
+
+    .overimgdiv {
+        width: 320px;
+        height: 250px;
+    }
+
+    .imgforlog {
+        margin: 30px auto;
+        width: 100px;
+    }
+
+    .testlogo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner2_cloud_hosting_services {
+        display: block;
+    }
+
+    .service_img {
+        width: 100%;
+    }
+
+    .services_text {
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .services_textandimg {
+        justify-content: center;
+    }
+
+    .services_grid_view {
+        margin: 40px;
+    }
+
+    .project_start {
+        display: block;
+    }
+
+    .project_start_text {
+        width: 100%;
+        text-align: center;
+        padding: 0px 12px;
+    }
+
+    .footerflex {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .link_details_ {
+        margin: 10px 0px 10px 10px;
+        padding-left: 10px;
+    }
+
+    .links-dropdown {
+        position: relative;
+        visibility: visible;
+        opacity: 1;
+        border-top: none;
+        top: 0%;
+        left: 0;
+        transform: translateY(0px);
+        width: 90%;
+    }
+
+    .links-dropdown a {
+        line-height: 20px;
+    }
+
+    .searchbarforbtn {
+        margin-top: 50px;
+        display: flex;
+        align-items:center;
+        justify-content: left;
+        width: 100%;
+    }
+
+    .container2 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .footerdiv {
+        padding-top: 20px;
+    }
+
+    .footerflex {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .round_logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logosvgimg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .team_member_logo {
+        margin-top: 220px;
+    }
+}
+
+@media (max-width: 645px) {
+
+    html{
+        font-size: 13px;
+    }
+
+    .headings,.center-headings {
+       padding: 10px 20px;
+       font-size: 33px;
+    }
+
+    .secondary-headings,.center-secondary-headings {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .footertext2{
+        font-size: 14px;
+    }
+
+    .teamimgdiv {
+        width: 330px;
+        height: 330px;
+    }
+
+    .getstarted_button {
+        width: 150px;
+        height: 35px;
+    }
+
+    .container2 {
+        padding-bottom: 30px;
+    }
+
+    .blocks-line-3grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .centerflex {
+        width: 100%;
+        display: block;
+    }
+
+    .container2,
+    .container {
+        width: 95%;
+    }
+
+    .services_different_section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blocks-line,
+    .blocks-line-4grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .overimgdiv {
+        width: 370px;
+        height: 290px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footerflex {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .imgforlog {
+        margin: 30px auto;
+        width: 80px;
+    }
+
+    .test_blocks_line1 {
+        display: block;
+    }
+
+    .our_features_block1 {
+        margin: 30px;
+    }
+
+    
+    .highlighted_title,
+    .team_member_block1_img_title,
+    .our_features_block1_img_title,
+    .project_member_block1_img_title,.our_blog_member_block1_img_title {
+        font-size: 20px;
+    }
+
+    .headertext1 {
+        font-size: 20px;
+    }
+
+    .headertext2 {
+        font-size: 12px;
+    }
+
+    .headertext3 {
+        font-size: 8px;
+    }
+
+    .buttontext {
+        font-size: 8px;
+    }
+
+    .team_member_logo {
+        margin-top: 260px;
+    }
+   
+    .btn {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 380px) {
+  
+    .overimgdiv {
+        width: 320px;
+        height: 250px;
+    }
+
+    .teamimgdiv {
+        width: 260px;
+        height: 260px;
+    }
+
+    .headings,.center-headings {
+        font-size: 30px;
+     }
+ 
+     .secondary-headings,.center-secondary-headings {
+         font-size: 13px;
+     }
+
+     .container2 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .teamimgdiv {
+        width: 310px;
+        height: 310px;
+    }
+
+    .round_logo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .logosvgimg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .team_member_logo {
+        margin-top: 230px;
+    }
+ 
+    .imgforlog {
+        width: 100px;
+    }
+
+    .testlogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 321px) {
+
+    .headertext1 {
+        font-size: 20px;
+    }
+
+    .headertext2 {
+        font-size: 12px;
+    }
+
+    .headertext3 {
+        font-size: 8px;
+    }
+
+    .tabledatacolumn1 {
+        font-size: 12px;
+    }
+
+    .tabledatarow1centercolumn {
+        font-size: 13px;
+    }
+
+    .buttontext {
+        font-size: 7px;
+    }
+
+    .overimgdiv {
+        width: 270px;
+        height: 200px;
+    }
+
+    .teamimgdiv {
+        width: 260px;
+        height: 260px;
+    }
+
+    .round_logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logosvgimg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .team_member_logo {
+        margin-top: 200px;
+    }
+
+    .imgforlog {
+        width: 80px;
+    }
+}
